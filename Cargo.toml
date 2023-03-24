@@ -1,0 +1,16 @@
+[package]
+name = "base_utf8"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "An example implementation of the base-utf8 encoding algorithm."
+readme = "README.md"
+repository = "https://github.com/starua/Base-UTF8"
+keywords = ["base-utf8", "encode", "decode", "utf-8"]
+categories = ["encoding", "algorithms"]
+
+[dependencies]
+thiserror = "1.0.40"
+
+[dev-dependencies]
+rand = "0.8"
